@@ -60,4 +60,4 @@ tests:
     node_color: "black"
 
 vars:
-  truncate_timespan_to: "{{ dbt_utils.current_timestamp() }}"
+  truncate_timespan_to: "{{ dbt.current_timestamp() }}"
